@@ -4,15 +4,14 @@ Apache 2.0 License  http://www.apache.org/licenses/
 ---
 based on project https://github.com/WLM1ke/aiomoex
 
-Helper functions for building requests."""
-""""""
+Helper functions for building requests.
+"""
 
 from collections.abc import Iterable
 from typing import Final
-
 import httpx
 
-from amoex import client
+from . import client
 
 # Default modes for requests
 DEFAULT_ENGINE: Final = "stock"

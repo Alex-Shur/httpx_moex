@@ -10,8 +10,8 @@ Functions to get information about candles.
 from collections.abc import Iterable
 import httpx
 
-from amoex import client, request_helpers
-from amoex.request_helpers import (
+from . import client, request_helpers
+from .request_helpers import (
     CANDLE_BORDERS,
     CANDLES,
     DEFAULT_BOARD,

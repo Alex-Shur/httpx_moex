@@ -10,7 +10,7 @@ Functions to retrieve data on historical daily quotes.
 from collections.abc import Iterable
 import httpx
 
-from amoex import client, request_helpers
+from . import client, request_helpers
 from .request_helpers import DEFAULT_BOARD, DEFAULT_ENGINE, DEFAULT_MARKET, SECURITIES
 
 

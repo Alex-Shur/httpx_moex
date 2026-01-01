@@ -11,7 +11,7 @@ from collections.abc import Iterable
 
 import httpx
 
-from amoex import client, request_helpers
+from . import client, request_helpers
 from .request_helpers import SECURITIES, SERIES
 
 
